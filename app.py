@@ -159,7 +159,11 @@ if prompt:
                 # Menggunakan Gemini/Gemma via SDK Google
                 model = genai.GenerativeModel(
                     model_name="gemma-4-31b-it",
-                    system_instruction=SYSTEM_PROMPT_FINAL
+                    system_instruction=SYSTEM_PROMPT_FINAL,
+
+                    generation_config={
+                        "temperature": 0.3
+                    }
                 )
                 
                 # Format riwayat untuk SDK Google
