@@ -34,12 +34,12 @@ Chatbot pintar berbasis AI yang dirancang untuk membantu warga Jawa Barat mendap
    ```streamlit run app.py```
    ```pyhton -m streamlit run app.py```
 
-🌐 **Deployment**
+## 🌐 Deployment
     Aplikasi ini dioptimalkan untuk di-deploy melalui Streamlit Cloud. Jangan lupa untuk memasukkan ```OPENROUTER_API_KEY```pada bagian Advanced Settings > Secrets di dashboard Streamlit Cloud.
 
-📁 **Struktur File**
-    ```app.py```: Logika utama aplikasi dan antarmuka chat.
-    ```data_faq.json```: Basis data pengetahuan seputar DPD Jabar.
-    ```requirements.txt```: Daftar library Python yang dibutuhkan.
+## 📁 Struktur File
+    - **app.py**: Logika utama aplikasi dan antarmuka chat.
+    - **data_faq.json**: Basis data pengetahuan seputar DPD Jabar.
+    - **requirements.txt**: Daftar library Python yang dibutuhkan.
 
 🚀 Developed with ❤️ by Protosaurus
