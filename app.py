@@ -162,7 +162,7 @@ if prompt:
         with st.spinner("⏳ Antosan sakedap, asisten sedang mengetik..."):
             try:
                 completion = client.chat.completions.create(
-                    model="ometa-llama/llama-prompt-guard-2-22m", 
+                    model="meta-llama/llama-prompt-guard-2-22m", 
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT_FINAL},
                         *[{"role": m["role"], "content": m["content"]} for m in st.session_state.messages]
