@@ -19,8 +19,8 @@ Chatbot pintar berbasis AI yang dirancang untuk membantu warga Jawa Barat mendap
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/username-kamu/chatbot-dpd-jabar.git](https://github.com/username-kamu/chatbot-dpd-jabar.git)
-   cd chatbot-dpd-jabar
+   git clone [https://github.com/username-kamu/chatbot-dpd-jabar.git](https://github.com/protosaurusx/chatbot_dpd_jabar.git)
+   cd chatbot_dpd_jabar
 
 2. **Instalasi Library**
    Pastikan kamu sudah menginstal Python, lalu jalankan:
@@ -42,4 +42,4 @@ Chatbot pintar berbasis AI yang dirancang untuk membantu warga Jawa Barat mendap
 - ``data_faq.json``: Basis data pengetahuan seputar DPD Jabar.
 - ``requirements.txt``: Daftar library Python yang dibutuhkan.
 
-🚀 Developed with ❤️ by **Protosaurus**
+🚀 Developed with ❤️ by **Protosaurusx**
