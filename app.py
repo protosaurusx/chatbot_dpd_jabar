@@ -171,7 +171,7 @@ if prompt:
                         "HTTP-Referer": "http://localhost:8501", # Penting untuk OpenRouter
                         "X-Title": "Chatbot DPD Jabar",
                     },
-                    model="openai/gpt-oss-120b:free", # Model stabil di OpenRouter
+                    model="google/gemma-4-31b-it:free", # Model stabil di OpenRouter
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT_FINAL},
                         *[{"role": m["role"], "content": m["content"]} for m in st.session_state.messages]
