@@ -168,10 +168,10 @@ if prompt:
                 # Menggunakan OpenRouter API
                 completion = client.chat.completions.create(
                     extra_headers={
-                        "HTTP-Referer": "http://localhost:8501", # Penting untuk OpenRouter
+                        "HTTP-Referer": "http://https://chatbotdpdjabar.streamlit.app", # Penting untuk OpenRouter
                         "X-Title": "Chatbot DPD Jabar",
                     },
-                    model="google/gemma-4-31b-it:free", # Model stabil di OpenRouter
+                    model="google/gemma-4-26b-a4b-it:free", # Model stabil di OpenRouter
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT_FINAL},
                         *[{"role": m["role"], "content": m["content"]} for m in st.session_state.messages]
