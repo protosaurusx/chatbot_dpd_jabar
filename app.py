@@ -164,7 +164,7 @@ if prompt:
             try:
                 # Menggunakan Groq API
                 completion = client.chat.completions.create(
-                    model="openai/gpt-oss-120b", # Model handal dari Groq
+                    model="openai/gpt-oss-20b", # Model handal dari Groq
                     messages=[
                         {"role": "system", "content": SYSTEM_PROMPT_FINAL},
                         *[{"role": m["role"], "content": m["content"]} for m in st.session_state.messages]
