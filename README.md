@@ -3,7 +3,7 @@
 Chatbot pintar berbasis AI yang dirancang untuk membantu warga Jawa Barat mendapatkan informasi seputar tugas, wewenang, dan profil anggota DPD RI perwakilan Jawa Barat periode 2024-2029 secara interaktif.
 
 ## ✨ Fitur Utama
-- **🤖 AI-Powered Chat**: Menggunakan model bahasa mutakhir via OpenRouter (Llama 3/DeepSeek) untuk menjawab pertanyaan warga secara alami.
+- **🤖 AI-Powered Chat**: Menggunakan model bahasa mutakhir via OpenRouter (Llama 3/Gpt-oss-120b) untuk menjawab pertanyaan warga secara alami.
 - **📍 Cek Isu Wilayah**: Fitur khusus untuk melihat isu utama di 27 Kota/Kabupaten di Jawa Barat.
 - **📚 Knowledge Base JSON**: Seluruh data informasi DPD tersentralisasi dalam file `data_faq.json` yang mudah diperbarui.
 - **📱 Responsive UI**: Tampilan bersih dan modern menggunakan Streamlit, lengkap dengan pintasan pertanyaan populer.
